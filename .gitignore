@@ -1,0 +1,12 @@
+# Copyright 2020 Kuno Woudt <kuno@frob.nl>
+# SPDX-License-Identifier: copyleft-next-0.3.1
+*~
+.DS_Store
+.\#*
+\#*\#
+/.cache
+/node_modules/
+/composer.phar
+/vendor/
+/photos/
+/.lego/

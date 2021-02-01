@@ -1,0 +1,5 @@
+{
+    "require": {
+        "webmozart/path-util": "^2.3"
+    }
+}

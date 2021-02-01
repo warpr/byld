@@ -1,0 +1,29 @@
+{
+    "name": "byld",
+    "version": "0.1.0",
+    "description": "byld 2021",
+    "lint-staged": {
+        "*.php": [
+            "prettier --write"
+        ],
+        "*.json": [
+            "prettier --write"
+        ],
+        "*.js": [
+            "prettier --write"
+        ]
+    },
+    "author": "Kuno Woudt <kuno@frob.nl>",
+    "license": "copyleft-next-0.3.1",
+    "repository": "https://github.com/warpr/byld.git",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "dependencies": {
+        "@prettier/plugin-php": "^0.16.0",
+        "normalize.css": "^8.0.1",
+        "prettier": "^2.0.5"
+    }
+}
